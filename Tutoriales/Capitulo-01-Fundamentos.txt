@@ -1,0 +1,27 @@
+ACTIVIDAD 2: CONFIGURACION DE HERRAMIENTAS
+Capitulo 1. Fundamentos de Git
+
+1. ¿Que es Git?
+Git es un sistema de control de versiones que permite registrar los cambios realizados en los archivos de un proyecto. Facilita consultar versiones anteriores y conocer la evolucion del trabajo.
+
+2. ¿Que es el control de versiones?
+Es un sistema que guarda el historial de modificaciones de los archivos. Esto permite comparar cambios, recuperar versiones anteriores y organizar el desarrollo de un proyecto.
+
+3. ¿Que es GitHub?
+GitHub es una plataforma que permite alojar repositorios Git en internet y facilita compartir codigo, documentacion y otros archivos.
+
+4. Diferencias entre Git y GitHub
+Git es la herramienta de control de versiones que funciona en el computador. GitHub es una plataforma en linea donde se pueden almacenar y compartir repositorios.
+
+5. Comandos basicos
+git --version: consulta la version instalada de Git.
+git config --global user.name "Nombre": configura el nombre del usuario.
+git config --global user.email "correo@example.com": configura el correo del usuario.
+git status: muestra el estado del repositorio.
+
+6. Ejemplo practico
+Para verificar la instalacion, se ejecuta git --version en la terminal. Si aparece un numero de version, Git esta instalado correctamente.
+
+Fuente:
+Chacon, S. y Straub, B. Pro Git, segunda edicion.
+https://git-scm.com/book/es/v2

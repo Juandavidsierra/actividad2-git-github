@@ -1,0 +1,30 @@
+ACTIVIDAD 2: CONFIGURACION DE HERRAMIENTAS
+Capitulo 2. Repositorios y clonacion
+
+1. ¿Que es un repositorio?
+Un repositorio es un espacio donde Git registra los archivos de un proyecto y su historial de cambios.
+
+2. Crear un repositorio
+Un repositorio puede crearse desde GitHub o directamente en el computador. Para esta actividad se crea primero en GitHub y despues se clona localmente.
+
+3. ¿Que significa clonar?
+Clonar consiste en descargar una copia de un repositorio remoto al computador. La copia queda vinculada al repositorio original.
+
+4. Comando de clonacion
+git clone URL_DEL_REPOSITORIO
+
+Ejemplo:
+git clone https://github.com/usuario/proyecto.git
+
+5. Consultar el repositorio remoto
+git remote -v permite consultar las direcciones asociadas al repositorio remoto.
+
+6. Comprobar el estado
+git status muestra la rama actual y los cambios pendientes.
+
+7. Importancia
+La clonacion permite trabajar localmente y posteriormente enviar los cambios al repositorio remoto.
+
+Fuente:
+Chacon, S. y Straub, B. Pro Git, segunda edicion.
+https://git-scm.com/book/es/v2

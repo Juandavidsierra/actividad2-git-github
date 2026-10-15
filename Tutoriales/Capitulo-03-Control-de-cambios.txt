@@ -1,0 +1,39 @@
+ACTIVIDAD 2: CONFIGURACION DE HERRAMIENTAS
+Capitulo 3. Registro y publicacion de cambios
+
+1. ¿Que es un commit?
+Un commit es un registro de los cambios seleccionados en un repositorio. Debe tener un mensaje claro que explique la modificacion realizada.
+
+2. Agregar archivos
+El comando git add prepara los archivos para incluirlos en el siguiente commit.
+
+Ejemplo:
+git add Tutoriales/Capitulo-01-Fundamentos.txt
+
+Para preparar todos los cambios:
+git add .
+
+3. Confirmar los cambios
+El comando git commit registra los cambios preparados.
+
+Ejemplo:
+git commit -m "Agrega tutorial de fundamentos de Git"
+
+4. Enviar cambios a GitHub
+El comando git push envia los commits locales al repositorio remoto.
+
+Ejemplo:
+git push origin main
+
+5. Consultar el estado
+git status permite verificar si quedan cambios pendientes.
+
+6. Buenas practicas
+Los mensajes de commit deben ser breves, claros y descriptivos. Es recomendable realizar commits despues de completar cada parte importante del trabajo.
+
+7. Flujo basico
+Primero se modifican los archivos, despues se ejecuta git add, luego git commit y finalmente git push.
+
+Fuente:
+Chacon, S. y Straub, B. Pro Git, segunda edicion.
+https://git-scm.com/book/es/v2
