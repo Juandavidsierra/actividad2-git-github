@@ -1,98 +1,36 @@
-# \# Actividad 2: Git y GitHub
+# Actividad 2: Git y GitHub
 
-# 
+## Objetivo
 
-# \## 1. Introducción
+Practicar el uso básico de Git para administrar archivos, registrar cambios y publicarlos en un repositorio de GitHub.
 
-# 
+## Documentos elaborados
 
-# El objetivo de esta actividad es aprender a utilizar Git como sistema de control de versiones y GitHub como plataforma para almacenar y compartir repositorios. Durante el proceso se creó un repositorio, se trabajó con archivos de documentación y se registraron los cambios mediante commits.
+### Capítulo 1. Fundamentos de Git
 
-# 
+Se presentan los conceptos básicos del control de versiones, la instalación de Git y su configuración inicial.
 
-# \## 2. Proceso realizado
+- `Tutoriales/Capitulo-01-Fundamentos.docx`
+- `Tutoriales/Capitulo-01-Fundamentos.pdf`
 
-# 
+### Capítulo 2. Repositorios y control de cambios
 
-# 1\. Se creó el repositorio público `actividad2-git-github` en GitHub.
+Se explican los repositorios, la clonación y los comandos principales para preparar, registrar y publicar cambios.
 
-# 2\. Se utilizó Git Bash para consultar el estado del repositorio y administrar los archivos.
+- `Tutoriales/Capitulo-02-Repositorios.docx`
+- `Tutoriales/Capitulo-02-Repositorios.pdf`
 
-# 3\. Se organizaron los documentos en la carpeta `Tutoriales`.
+## Proceso realizado
 
-# 4\. Se crearon documentos de Word y sus versiones en PDF.
+Se crearon los documentos en Word, se exportaron a PDF y se organizaron en la carpeta `Tutoriales`. Los archivos se añadieron al seguimiento de Git y se publicaron en GitHub mediante commits independientes.
 
-# 5\. Se utilizó `git add` para preparar los archivos.
+## Comandos utilizados
 
-# 6\. Se utilizó `git commit` para registrar cada capítulo con un mensaje descriptivo.
+- `git status`: consultar el estado del repositorio.
+- `git add`: preparar los archivos.
+- `git commit`: registrar los cambios.
+- `git push`: publicar los commits en GitHub.
 
-# 7\. Se utilizó `git push` para subir los cambios al repositorio remoto.
+## Conclusión
 
-# 
-
-# \## 3. Documentos creados
-
-# 
-
-# \### Capítulo 1. Fundamentos de Git
-
-# 
-
-# Se explican los conceptos básicos del control de versiones, la función de Git, su instalación, la configuración inicial y algunos conceptos fundamentales.
-
-# 
-
-# Archivos:
-
-# \- `Capitulo-01-Fundamentos.docx`
-
-# \- `Capitulo-01-Fundamentos.pdf`
-
-# 
-
-# \### Capítulo 2. Repositorios y control de cambios
-
-# 
-
-# Se describen los repositorios locales y remotos, la clonación, la consulta del estado de los archivos y los comandos principales para preparar, registrar y compartir cambios.
-
-# 
-
-# Archivos:
-
-# \- `Capitulo-02-Repositorios.docx`
-
-# \- `Capitulo-02-Repositorios.pdf`
-
-# 
-
-# \## 4. Comandos utilizados
-
-# 
-
-# \- `git status`: consultar el estado del repositorio.
-
-# \- `git add`: preparar archivos para el siguiente commit.
-
-# \- `git commit`: registrar cambios con un mensaje descriptivo.
-
-# \- `git push`: enviar los commits al repositorio remoto.
-
-# \- `git clone`: crear una copia local de un repositorio remoto.
-
-# 
-
-# \## 5. Conclusión
-
-# 
-
-# La actividad permitió practicar el uso básico de Git y GitHub para organizar documentos, mantener un historial de cambios y publicar archivos en un repositorio remoto. También permitió comprender la importancia de utilizar mensajes descriptivos en los commits y comprobar el estado del repositorio para verificar que los cambios se hayan sincronizado correctamente.
-
-# 
-
-# \## 6. Referencia
-
-# 
-
-# Chacon, S. y Straub, B. (2014). \*Pro Git\*. Apress. https://git-scm.com/book/es/v2
-
+La actividad permitió practicar el control de versiones y la publicación de documentos en un repositorio remoto, utilizando un historial de cambios organizado.
